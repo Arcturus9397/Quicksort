@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.quicksort.sort.quicksort.QuickTest" time="0.021" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="20.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Users\swath\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.1.v20230425-1611\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\swath\Downloads\quicksort (1)\quicksort"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\swath\Downloads\quicksort (1)\quicksort"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="20.0.1+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\swath\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\swath\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2859693149163643299.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\swath\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.1.v20230425-1611\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/swath/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.1.v20230425-1611/jre/bin/server;C:/Users/swath/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.1.v20230425-1611/jre/bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\swath\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Users\swath\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Polyspace\R2019a\runtime\win64;C:\Program Files\Polyspace\R2019a\bin;C:\Program Files\Polyspace\R2019a\polyspace\bin;C:\Users\swath\ass2\django-event-management;C:\Users\swath\AppData\Local\Programs\Microsoft VS Code\bin;C:\windows\System32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="64.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\swath"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="20"/>
+    <property name="user.name" value="swath"/>
+    <property name="java.class.path" value="C:\Users\swath\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\Users\swath\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.1.v20230425-1611\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\swath\Downloads\quicksort (1)\quicksort\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-20.0.1+9"/>
+    <property name="m2e.build.project.data.socket.port" value="60126"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testSortWithMixedNumbers" classname="com.quicksort.sort.quicksort.QuickTest" time="0.01"/>
+  <testcase name="testIsSortedForReturnMutation" classname="com.quicksort.sort.quicksort.QuickTest" time="0.002"/>
+  <testcase name="testSelectWithAllSameElements" classname="com.quicksort.sort.quicksort.QuickTest" time="0.001"/>
+  <testcase name="testSelectMiddleElement" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSortEmptyArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0.001"/>
+  <testcase name="testSelectWithNegativeNumbers" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSelectLastElement" classname="com.quicksort.sort.quicksort.QuickTest" time="0.001"/>
+  <testcase name="testIsSortedForLoopConditionMutation" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSelectWithIndexOutOfBounds" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testIsSortedForLessCallRemoval" classname="com.quicksort.sort.quicksort.QuickTest" time="0.001"/>
+  <testcase name="testSelectWithSortedArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSortReverseSortedArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testIsSortedForLessThanMutation" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSortWithAllSameElements" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSelectWithNegativeIndex" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testShowMethod1" classname="com.quicksort.sort.quicksort.QuickTest" time="0.001"/>
+  <testcase name="testSortRandomArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSortWithNegativeNumbers" classname="com.quicksort.sort.quicksort.QuickTest" time="0.001"/>
+  <testcase name="testSelectWithDuplicates" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSelectWithSingleElementArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSelectLargeArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0.002"/>
+  <testcase name="testSortAlreadySortedArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSelectWithEmptyArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSelectFirstElement" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSelectWithRandomArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0"/>
+  <testcase name="testSortSingleElementArray" classname="com.quicksort.sort.quicksort.QuickTest" time="0.001"/>
+</testsuite>
